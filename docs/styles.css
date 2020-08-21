@@ -7,13 +7,11 @@
 
 font-family: 'Pathway Gothic One', sans-serif;============>encabezados*/
 body{
-    font-family: 'Lora', serif;
+    font-family: 'Vollkorn', serif;
     text-align: justify;
 
 }
-footer{
-    font-family: 'Lora', serif;
-}
+
 
 .contenedor {
 padding: 60px 0;
@@ -21,10 +19,11 @@ width: 90%;
 max-width: 1000px;
 margin: auto;
 overflow: hidden;
+font-family: 'Volkorn', serif;
 }
 /*header*/
 header{
-    font-family: 'Lora', serif;
+    font-family: 'Vollkorn', serif;
     width: 100%;
     height: 600px;
     background-image: linear-gradient(to top, rgba(161, 140, 209, 0.459) 0%, rgba(251, 194, 235, 0.507) 100%), url('https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80');
@@ -68,7 +67,7 @@ text-decoration: underline;
     margin-bottom: 5px;
 }
 .textos-header h1{
-    font-family: 'Volkorn', serif;
+    font-family: 'Vollkorn', serif;
 }
 .linea{
     width: 600px;
@@ -83,6 +82,7 @@ text-decoration: underline;
     color: #fff;
     font-weight: 300;
     margin-bottom: 20px;
+    font-family: 'Vollkorn', serif;
 }
 
 .wave{
@@ -332,19 +332,11 @@ footer{
   #parrafo{
       font-family: 'Lora', serif;
   }
-  .habilidades{
+  #habilidades{
       font-family: 'Volkorn', serif;
+      background: linear-gradient(to top, rgba(161, 140, 209, 0.459) 0%, rgba(251, 194, 235, 0.507) 100%)
   }
-  /*@font-face {
-    font-family: 'Lora', serif;
-    font-display: auto;
-    src: local('Lora'), url(https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap ) ;
+  @media only screen and (max-device-width:700px){
+
   }
-/*<style type="text/css" media="screen, print">-
-    @font-face {
-      font-family: "Bitstream Vera Serif Bold";
-      src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
-    }
-    
-    body { font-family: "Bitstream Vera Serif Bold", serif }*/
   
